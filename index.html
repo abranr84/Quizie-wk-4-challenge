@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <div id="container">
+
+<!-- Start Section -->
+
+        <div id="start">Start Quiz</div>
+
+<!-- Guide Section -->
+
+        <div id="guide">
+            <h2>Quiz Guide</h2>
+            <h4>1. You have only 20 seconds for each question.</h4>
+            <h4>2. Once you select your answer. It can't be undone.</h4>
+            <h4>3. You'll get points on the basic of your correct answers. </h4>
+            <h4>4. You can't exit from the quiz while you are playing.</h4>
+            <div id="button">
+                <button id="exit">Exit</button>
+                <button id="continue">Continue</button>
+            </div>
+        </div>
+
+<!-- Quiz Section -->
+
+        <div id="quiz">
+            <div id="quiz_header">
+                <h5>Quiz App</h5>
+                <div id="timer">
+                    <h6>Time left</h6>
+                    <h6 id="time">00</h6>
+                </div>
+            </div>
+
+<!-- Quiz Questions -->
+
+            <div id="question">
+                <h2 id="questionNo">1.</h2>
+                <h2 id="questionText">HTML stands for</h2>
+            </div>
+
+<!-- Quiz Choices -->
+
+        <div id="optionsList">
+            <h4 class="choice_que" id="option1">Hyperlinks and Text Markup Language</h4>
+            <h4 class="choice_que" id="option2">Hyper Text Markup Language</h4>
+            <h4 class="choice_que" id="option3">Hyper Text Making Language</h4>
+            <h4 class="choice_que" id="option4">Hyper Text Mark Language</h4>
+        </div>
+
+        </div>
+    </div>
+
+    <script src = 'assets/script.js'></script>
+</body>
+</html>
